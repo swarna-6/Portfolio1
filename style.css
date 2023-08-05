@@ -1,0 +1,97 @@
+/*================Basic code============*/
+
+
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+
+/*==========Header section==========*/
+.about-img{
+    margin-left: -150px;
+    right: -60px;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 50px; 
+}
+.btn-white{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.btn-blue{
+    border: 2.4px solid #ffffff;
+    color: #ffffff;
+}
+.hero text{
+    margin-top: 150px;
+}
+.typed-cursor{
+    font-size: 45px;
+    color: #ffffff;
+}
+.position-absolute{
+    font-weight: 700;
+}
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0bceaf;
+}
+
+/*=======================about section===================*/
+.blue{
+    background-color: rgb(32,125,248);
+    color: #ffffff;
+    border-radius: 2px solid rgb(20,109,241);
+    color: #0f6eeb;
+    border-radius: 2px solid rgb(20,109,241);
+}
+.progress{
+    border-radius: 10px;
+}
+
+.progress .progress-bar{
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.display-1{
+    font-size: 160px;
+    font-weight: 100;
+}
+
+/*===========================portfolio=================================*/
+.portfolio-item .portfolio-btn{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.5%;
+}
+.portfolio-item:hover .portfolio-btn{
+    opacity: 1;
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    top: 30px;
+    left: 30px;
+}
